@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 

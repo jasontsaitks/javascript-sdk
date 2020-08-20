@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.Passport
+# KentTestIdentityVerification.Passport
 
 ## Properties
 

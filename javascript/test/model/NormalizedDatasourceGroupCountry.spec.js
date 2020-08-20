@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+    instance = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,61 +50,61 @@
   describe('NormalizedDatasourceGroupCountry', function() {
     it('should create an instance of NormalizedDatasourceGroupCountry', function() {
       // uncomment below and update the code to test NormalizedDatasourceGroupCountry
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry);
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
+      //expect(instance).to.be.a(KentTestIdentityVerification.NormalizedDatasourceGroupCountry);
     });
 
     it('should have the property name (base name: "Name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property description (base name: "Description")', function() {
       // uncomment below and update the code to test the property description
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property requiredFields (base name: "RequiredFields")', function() {
       // uncomment below and update the code to test the property requiredFields
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property optionalFields (base name: "OptionalFields")', function() {
       // uncomment below and update the code to test the property optionalFields
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property appendedFields (base name: "AppendedFields")', function() {
       // uncomment below and update the code to test the property appendedFields
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property outputFields (base name: "OutputFields")', function() {
       // uncomment below and update the code to test the property outputFields
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceType (base name: "SourceType")', function() {
       // uncomment below and update the code to test the property sourceType
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property updateFrequency (base name: "UpdateFrequency")', function() {
       // uncomment below and update the code to test the property updateFrequency
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 
     it('should have the property coverage (base name: "Coverage")', function() {
       // uncomment below and update the code to test the property coverage
-      //var instane = new TestOnlyIdentityVerification.NormalizedDatasourceGroupCountry();
+      //var instane = new KentTestIdentityVerification.NormalizedDatasourceGroupCountry();
       //expect(instance).to.be();
     });
 

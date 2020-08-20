@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.TransactionStatus
+# KentTestIdentityVerification.TransactionStatus
 
 ## Properties
 

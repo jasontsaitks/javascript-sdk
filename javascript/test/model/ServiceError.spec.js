@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.ServiceError();
+    instance = new KentTestIdentityVerification.ServiceError();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('ServiceError', function() {
     it('should create an instance of ServiceError', function() {
       // uncomment below and update the code to test ServiceError
-      //var instane = new TestOnlyIdentityVerification.ServiceError();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.ServiceError);
+      //var instane = new KentTestIdentityVerification.ServiceError();
+      //expect(instance).to.be.a(KentTestIdentityVerification.ServiceError);
     });
 
     it('should have the property code (base name: "Code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new TestOnlyIdentityVerification.ServiceError();
+      //var instane = new KentTestIdentityVerification.ServiceError();
       //expect(instance).to.be();
     });
 
     it('should have the property message (base name: "Message")', function() {
       // uncomment below and update the code to test the property message
-      //var instane = new TestOnlyIdentityVerification.ServiceError();
+      //var instane = new KentTestIdentityVerification.ServiceError();
       //expect(instance).to.be();
     });
 

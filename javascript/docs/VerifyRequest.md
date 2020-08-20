@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.VerifyRequest
+# KentTestIdentityVerification.VerifyRequest
 
 ## Properties
 
