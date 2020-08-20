@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.PersonInfo
+# KentTestIdentityVerification.PersonInfo
 
 ## Properties
 

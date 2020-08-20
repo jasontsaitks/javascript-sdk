@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.TransactionRecordResult
+# KentTestIdentityVerification.TransactionRecordResult
 
 ## Properties
 

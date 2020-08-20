@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.Location
+# KentTestIdentityVerification.Location
 
 ## Properties
 

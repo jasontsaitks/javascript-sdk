@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -51,9 +51,9 @@ import VerificationsApi from './api/VerificationsApi';
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var TestOnlyIdentityVerification = require('index'); // See note below*.
-* var xxxSvc = new TestOnlyIdentityVerification.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new TestOnlyIdentityVerification.Yyy(); // Construct a model instance.
+* var KentTestIdentityVerification = require('index'); // See note below*.
+* var xxxSvc = new KentTestIdentityVerification.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new KentTestIdentityVerification.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -65,8 +65,8 @@ import VerificationsApi from './api/VerificationsApi';
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new TestOnlyIdentityVerification.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new TestOnlyIdentityVerification.Yyy(); // Construct a model instance.
+* var xxxSvc = new KentTestIdentityVerification.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new KentTestIdentityVerification.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
