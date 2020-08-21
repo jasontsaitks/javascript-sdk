@@ -10,21 +10,37 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  verion_check:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout code from the pull request
+        uses: actions/checkout@v2
+
+      - name: version check
+        run: |
+          ls
+          ls ./bin/utils/
+          chmod +x ./bin/utils/check_version.sh
+          cd javascript
+          ../bin/utils/check_version.sh
+
+  build:
+    needs: verion_check
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v2
 
-      # Runs a set of commands using the runners shell
-      - name: Install, Build and Test
+      - name: Install, Build
         run: |
           sudo npm install -g babel-cli
           cd javascript
           npm install
           npm run build
-          
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish
+        run: |
+          echo "publish..."
