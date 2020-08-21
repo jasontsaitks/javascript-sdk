@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.TransactionRecordResult();
+    instance = new KentTestIdentityVerification.TransactionRecordResult();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,55 +50,55 @@
   describe('TransactionRecordResult', function() {
     it('should create an instance of TransactionRecordResult', function() {
       // uncomment below and update the code to test TransactionRecordResult
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.TransactionRecordResult);
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
+      //expect(instance).to.be.a(KentTestIdentityVerification.TransactionRecordResult);
     });
 
     it('should have the property transactionID (base name: "TransactionID")', function() {
       // uncomment below and update the code to test the property transactionID
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 
     it('should have the property uploadedDt (base name: "UploadedDt")', function() {
       // uncomment below and update the code to test the property uploadedDt
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 
     it('should have the property countryCode (base name: "CountryCode")', function() {
       // uncomment below and update the code to test the property countryCode
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 
     it('should have the property productName (base name: "ProductName")', function() {
       // uncomment below and update the code to test the property productName
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 
     it('should have the property record (base name: "Record")', function() {
       // uncomment below and update the code to test the property record
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 
     it('should have the property customerReferenceID (base name: "CustomerReferenceID")', function() {
       // uncomment below and update the code to test the property customerReferenceID
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 
     it('should have the property errors (base name: "Errors")', function() {
       // uncomment below and update the code to test the property errors
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 
     it('should have the property inputFields (base name: "InputFields")', function() {
       // uncomment below and update the code to test the property inputFields
-      //var instane = new TestOnlyIdentityVerification.TransactionRecordResult();
+      //var instane = new KentTestIdentityVerification.TransactionRecordResult();
       //expect(instance).to.be();
     });
 

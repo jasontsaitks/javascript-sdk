@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.VerificationsApi
+# KentTestIdentityVerification.VerificationsApi
 
 All URIs are relative to *https://gateway.trulioo.com/trial*
 
@@ -20,15 +20,15 @@ This method is used to retrieve the request and results of a verification perfor
 ### Example
 
 ```javascript
-import TestOnlyIdentityVerification from 'test_only_identity_verification';
-let defaultClient = TestOnlyIdentityVerification.ApiClient.instance;
+import KentTestIdentityVerification from 'kent_test_identity_verification';
+let defaultClient = KentTestIdentityVerification.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
 ApiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestOnlyIdentityVerification.VerificationsApi();
+let apiInstance = new KentTestIdentityVerification.VerificationsApi();
 let id = "id_example"; // String | The TransactionRecordID from the Verify response, this will be a GUID
 apiInstance.getTransactionRecord(id, (error, data, response) => {
   if (error) {
@@ -71,16 +71,16 @@ Calling this method will perform a verification. If your account includes addres
 ### Example
 
 ```javascript
-import TestOnlyIdentityVerification from 'test_only_identity_verification';
-let defaultClient = TestOnlyIdentityVerification.ApiClient.instance;
+import KentTestIdentityVerification from 'kent_test_identity_verification';
+let defaultClient = KentTestIdentityVerification.ApiClient.instance;
 // Configure API key authorization: ApiKeyAuth
 let ApiKeyAuth = defaultClient.authentications['ApiKeyAuth'];
 ApiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //ApiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestOnlyIdentityVerification.VerificationsApi();
-let verifyRequest = new TestOnlyIdentityVerification.VerifyRequest(); // VerifyRequest | 
+let apiInstance = new KentTestIdentityVerification.VerificationsApi();
+let verifyRequest = new KentTestIdentityVerification.VerifyRequest(); // VerifyRequest | 
 apiInstance.verify(verifyRequest, (error, data, response) => {
   if (error) {
     console.error(error);

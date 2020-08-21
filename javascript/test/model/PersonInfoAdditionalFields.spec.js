@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.PersonInfoAdditionalFields();
+    instance = new KentTestIdentityVerification.PersonInfoAdditionalFields();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('PersonInfoAdditionalFields', function() {
     it('should create an instance of PersonInfoAdditionalFields', function() {
       // uncomment below and update the code to test PersonInfoAdditionalFields
-      //var instane = new TestOnlyIdentityVerification.PersonInfoAdditionalFields();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.PersonInfoAdditionalFields);
+      //var instane = new KentTestIdentityVerification.PersonInfoAdditionalFields();
+      //expect(instance).to.be.a(KentTestIdentityVerification.PersonInfoAdditionalFields);
     });
 
     it('should have the property fullName (base name: "FullName")', function() {
       // uncomment below and update the code to test the property fullName
-      //var instane = new TestOnlyIdentityVerification.PersonInfoAdditionalFields();
+      //var instane = new KentTestIdentityVerification.PersonInfoAdditionalFields();
       //expect(instance).to.be();
     });
 

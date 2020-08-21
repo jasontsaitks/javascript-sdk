@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.DriverLicence();
+    instance = new KentTestIdentityVerification.DriverLicence();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,37 +50,37 @@
   describe('DriverLicence', function() {
     it('should create an instance of DriverLicence', function() {
       // uncomment below and update the code to test DriverLicence
-      //var instane = new TestOnlyIdentityVerification.DriverLicence();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.DriverLicence);
+      //var instane = new KentTestIdentityVerification.DriverLicence();
+      //expect(instance).to.be.a(KentTestIdentityVerification.DriverLicence);
     });
 
     it('should have the property _number (base name: "Number")', function() {
       // uncomment below and update the code to test the property _number
-      //var instane = new TestOnlyIdentityVerification.DriverLicence();
+      //var instane = new KentTestIdentityVerification.DriverLicence();
       //expect(instance).to.be();
     });
 
     it('should have the property state (base name: "State")', function() {
       // uncomment below and update the code to test the property state
-      //var instane = new TestOnlyIdentityVerification.DriverLicence();
+      //var instane = new KentTestIdentityVerification.DriverLicence();
       //expect(instance).to.be();
     });
 
     it('should have the property dayOfExpiry (base name: "DayOfExpiry")', function() {
       // uncomment below and update the code to test the property dayOfExpiry
-      //var instane = new TestOnlyIdentityVerification.DriverLicence();
+      //var instane = new KentTestIdentityVerification.DriverLicence();
       //expect(instance).to.be();
     });
 
     it('should have the property monthOfExpiry (base name: "MonthOfExpiry")', function() {
       // uncomment below and update the code to test the property monthOfExpiry
-      //var instane = new TestOnlyIdentityVerification.DriverLicence();
+      //var instane = new KentTestIdentityVerification.DriverLicence();
       //expect(instance).to.be();
     });
 
     it('should have the property yearOfExpiry (base name: "YearOfExpiry")', function() {
       // uncomment below and update the code to test the property yearOfExpiry
-      //var instane = new TestOnlyIdentityVerification.DriverLicence();
+      //var instane = new KentTestIdentityVerification.DriverLicence();
       //expect(instance).to.be();
     });
 

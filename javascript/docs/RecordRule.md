@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.RecordRule
+# KentTestIdentityVerification.RecordRule
 
 ## Properties
 

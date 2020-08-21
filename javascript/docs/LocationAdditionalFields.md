@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.LocationAdditionalFields
+# KentTestIdentityVerification.LocationAdditionalFields
 
 ## Properties
 

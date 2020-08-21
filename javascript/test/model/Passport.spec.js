@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.Passport();
+    instance = new KentTestIdentityVerification.Passport();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,43 +50,43 @@
   describe('Passport', function() {
     it('should create an instance of Passport', function() {
       // uncomment below and update the code to test Passport
-      //var instane = new TestOnlyIdentityVerification.Passport();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.Passport);
+      //var instane = new KentTestIdentityVerification.Passport();
+      //expect(instance).to.be.a(KentTestIdentityVerification.Passport);
     });
 
     it('should have the property mrz1 (base name: "Mrz1")', function() {
       // uncomment below and update the code to test the property mrz1
-      //var instane = new TestOnlyIdentityVerification.Passport();
+      //var instane = new KentTestIdentityVerification.Passport();
       //expect(instance).to.be();
     });
 
     it('should have the property mrz2 (base name: "Mrz2")', function() {
       // uncomment below and update the code to test the property mrz2
-      //var instane = new TestOnlyIdentityVerification.Passport();
+      //var instane = new KentTestIdentityVerification.Passport();
       //expect(instance).to.be();
     });
 
     it('should have the property _number (base name: "Number")', function() {
       // uncomment below and update the code to test the property _number
-      //var instane = new TestOnlyIdentityVerification.Passport();
+      //var instane = new KentTestIdentityVerification.Passport();
       //expect(instance).to.be();
     });
 
     it('should have the property dayOfExpiry (base name: "DayOfExpiry")', function() {
       // uncomment below and update the code to test the property dayOfExpiry
-      //var instane = new TestOnlyIdentityVerification.Passport();
+      //var instane = new KentTestIdentityVerification.Passport();
       //expect(instance).to.be();
     });
 
     it('should have the property monthOfExpiry (base name: "MonthOfExpiry")', function() {
       // uncomment below and update the code to test the property monthOfExpiry
-      //var instane = new TestOnlyIdentityVerification.Passport();
+      //var instane = new KentTestIdentityVerification.Passport();
       //expect(instance).to.be();
     });
 
     it('should have the property yearOfExpiry (base name: "YearOfExpiry")', function() {
       // uncomment below and update the code to test the property yearOfExpiry
-      //var instane = new TestOnlyIdentityVerification.Passport();
+      //var instane = new KentTestIdentityVerification.Passport();
       //expect(instance).to.be();
     });
 

@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.VerifyRequest();
+    instance = new KentTestIdentityVerification.VerifyRequest();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,67 +50,67 @@
   describe('VerifyRequest', function() {
     it('should create an instance of VerifyRequest', function() {
       // uncomment below and update the code to test VerifyRequest
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.VerifyRequest);
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
+      //expect(instance).to.be.a(KentTestIdentityVerification.VerifyRequest);
     });
 
     it('should have the property acceptTruliooTermsAndConditions (base name: "AcceptTruliooTermsAndConditions")', function() {
       // uncomment below and update the code to test the property acceptTruliooTermsAndConditions
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property callBackUrl (base name: "CallBackUrl")', function() {
       // uncomment below and update the code to test the property callBackUrl
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property timeout (base name: "Timeout")', function() {
       // uncomment below and update the code to test the property timeout
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property cleansedAddress (base name: "CleansedAddress")', function() {
       // uncomment below and update the code to test the property cleansedAddress
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property configurationName (base name: "ConfigurationName")', function() {
       // uncomment below and update the code to test the property configurationName
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property consentForDataSources (base name: "ConsentForDataSources")', function() {
       // uncomment below and update the code to test the property consentForDataSources
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property countryCode (base name: "CountryCode")', function() {
       // uncomment below and update the code to test the property countryCode
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property customerReferenceID (base name: "CustomerReferenceID")', function() {
       // uncomment below and update the code to test the property customerReferenceID
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property dataFields (base name: "DataFields")', function() {
       // uncomment below and update the code to test the property dataFields
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property verboseMode (base name: "VerboseMode")', function() {
       // uncomment below and update the code to test the property verboseMode
-      //var instane = new TestOnlyIdentityVerification.VerifyRequest();
+      //var instane = new KentTestIdentityVerification.VerifyRequest();
       //expect(instance).to.be();
     });
 

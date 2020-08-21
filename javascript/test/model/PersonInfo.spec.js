@@ -1,6 +1,6 @@
 /**
- * Test Only - Identity Verification
- * To run tests transactions on our trial endpoint in postman:  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
+ * kent_test_identity_verification
+ * To run tests transactions on our trial endpoint in postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/a58f438d101278e2bc62) 
  *
  * The version of the OpenAPI document: 1.0.0-alpha.1
  * 
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestOnlyIdentityVerification);
+    factory(root.expect, root.KentTestIdentityVerification);
   }
-}(this, function(expect, TestOnlyIdentityVerification) {
+}(this, function(expect, KentTestIdentityVerification) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestOnlyIdentityVerification.PersonInfo();
+    instance = new KentTestIdentityVerification.PersonInfo();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,73 +50,73 @@
   describe('PersonInfo', function() {
     it('should create an instance of PersonInfo', function() {
       // uncomment below and update the code to test PersonInfo
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
-      //expect(instance).to.be.a(TestOnlyIdentityVerification.PersonInfo);
+      //var instane = new KentTestIdentityVerification.PersonInfo();
+      //expect(instance).to.be.a(KentTestIdentityVerification.PersonInfo);
     });
 
     it('should have the property firstGivenName (base name: "FirstGivenName")', function() {
       // uncomment below and update the code to test the property firstGivenName
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property middleName (base name: "MiddleName")', function() {
       // uncomment below and update the code to test the property middleName
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property firstSurName (base name: "FirstSurName")', function() {
       // uncomment below and update the code to test the property firstSurName
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property secondSurname (base name: "SecondSurname")', function() {
       // uncomment below and update the code to test the property secondSurname
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property iSOLatin1Name (base name: "ISOLatin1Name")', function() {
       // uncomment below and update the code to test the property iSOLatin1Name
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property dayOfBirth (base name: "DayOfBirth")', function() {
       // uncomment below and update the code to test the property dayOfBirth
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property monthOfBirth (base name: "MonthOfBirth")', function() {
       // uncomment below and update the code to test the property monthOfBirth
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property yearOfBirth (base name: "YearOfBirth")', function() {
       // uncomment below and update the code to test the property yearOfBirth
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property minimumAge (base name: "MinimumAge")', function() {
       // uncomment below and update the code to test the property minimumAge
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property gender (base name: "Gender")', function() {
       // uncomment below and update the code to test the property gender
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
     it('should have the property additionalFields (base name: "AdditionalFields")', function() {
       // uncomment below and update the code to test the property additionalFields
-      //var instane = new TestOnlyIdentityVerification.PersonInfo();
+      //var instane = new KentTestIdentityVerification.PersonInfo();
       //expect(instance).to.be();
     });
 
