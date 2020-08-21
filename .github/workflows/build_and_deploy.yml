@@ -26,6 +26,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Publish
-        run: |
-          echo "publish..."
+      - name: Publish package to NPM
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
