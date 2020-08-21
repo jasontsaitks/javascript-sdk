@@ -1,4 +1,4 @@
-# TestOnlyIdentityVerification.Communication
+# KentTestIdentityVerification.Communication
 
 ## Properties
 
