@@ -23,6 +23,8 @@ jobs:
           npm run build
 
       - name: Publish package to NPM
-        run: npm publish
+        run: |
+          cd javascript
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
