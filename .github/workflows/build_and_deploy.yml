@@ -1,5 +1,4 @@
 # This is a basic workflow to help you get started with Actions
-
 name: Build and Deploy
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -14,17 +13,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org
 
       - name: Install, Build
         run: |
           sudo npm install -g babel-cli
           cd javascript
           npm install
-          npm run build
-
-      - name: Publish package to NPM
+          
+      - name: Publish
         run: |
           cd javascript
-          npm publish
+          ls
+          npm view kh_identity_verification version
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
